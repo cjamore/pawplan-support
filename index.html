@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PawPlan — Support</title>
+  <meta name="description" content="Support page for the PawPlan iOS app: contact, FAQs, troubleshooting, and privacy information." />
+  <meta property="og:title" content="PawPlan — Support" />
+  <meta property="og:description" content="Get help with PawPlan. Contact us, read FAQs, and view troubleshooting & privacy info." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0b1220; --muted:#5b6475; --brand:#0ea5e9; --brand-ink:#075985; --card:#f8fafc; --ok:#16a34a; --warn:#b45309; --border:#e5e7eb; --shadow:0 10px 30px rgba(0,0,0,.08);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b1220; --fg:#e5e7eb; --muted:#9aa4b2; --card:#0f172a; --border:#1f2937; --brand:#38bdf8; --brand-ink:#93c5fd; }
+      img{opacity:.95}
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    .wrap{max-width:980px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;gap:16px;padding:20px 0}
+    .logo{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--card);box-shadow:var(--shadow)}
+    h1{font-size:28px;line-height:1.2;margin:0}
+    .tag{color:var(--muted)}
+    .hero{margin:24px 0 12px;display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+    @media (max-width:880px){.hero{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
+    h2{font-size:20px;margin:0 0 10px}
+    h3{font-size:18px;margin:22px 0 8px}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .btn{display:inline-block;background:var(--brand);color:white;border-radius:10px;padding:10px 14px;font-weight:600;box-shadow:var(--shadow)}
+    .btn:hover{filter:brightness(.98)}
+    .k{display:inline-flex;gap:10px;align-items:center}
+    .small{font-size:.95rem;color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    .grid.two{grid-template-columns:1fr 1fr}
+    @media (max-width:720px){.grid.two{grid-template-columns:1fr}}
+    .faq dt{font-weight:700}
+    .faq dd{margin:6px 0 18px}
+    footer{border-top:1px solid var(--border);margin-top:28px;padding-top:16px;color:var(--muted)}
+    .pill{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:.9rem;color:var(--muted)}
+    .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+    .callout{border-left:4px solid var(--brand);padding:10px 14px;background:rgba(56,189,248,.08);border-radius:10px}
+  </style>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"PawPlan",
+    "operatingSystem":"iOS",
+    "applicationCategory":"LifestyleApplication",
+    "provider":{"@type":"Organization","name":"PawPlan"},
+    "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+    "url":"https://example.com/pawplan-support"
+  }</script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">
+        <!-- Simple paw icon -->
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" style="color:var(--brand)">
+          <path d="M5.5 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm13 0a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM9 8a2.8 2.8 0 1 0 0-5.6A2.8 2.8 0 0 0 9 8Zm6 0a2.8 2.8 0 1 0 0-5.6A2.8 2.8 0 0 0 15 8Zm-3.2 2.4c-3.2 0-5.8 2.3-5.8 5.1 0 1.7 1.6 3 3.6 3h4.4c2 0 3.6-1.3 3.6-3 0-2.8-2.6-5.1-5.8-5.1Z"/>
+        </svg>
+      </div>
+      <div>
+        <h1>PawPlan — Support</h1>
+        <div class="tag">Help, FAQs, and troubleshooting</div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h2>Contact us</h2>
+        <p class="small">We usually reply within 1–2 business days.</p>
+        <p class="k">
+          <!-- EDIT: update your support email & hours -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5Z"/></svg>
+          <a class="btn" href="mailto:cjammerman@gmail.com?subject=PawPlan%20Support">Email support</a>
+        </p>
+        <p class="small">Hours: Mon–Fri, 9am–5pm ET</p>
+        <div class="small">Mailing address: <span class="mono">123 Main St, Your City, ST 00000</span> <!-- EDIT: replace address or remove line --></div>
+      </div>
+      <div class="card">
+        <h2>Quick links</h2>
+        <div class="grid">
+          <a class="pill" href="#faq">Jump to FAQs</a>
+          <a class="pill" href="#troubleshooting">Troubleshooting</a>
+          <a class="pill" href="#privacy">Privacy</a>
+          <a class="pill" href="https://support.apple.com/en-us/HT202039" rel="noopener" target="_blank">Manage App Store subscriptions ↗</a>
+        </div>
+        <p class="small" style="margin-top:10px">Last updated: September 2, 2025</p>
+      </div>
+    </section>
+
+    <section id="troubleshooting" class="card">
+      <h2>Troubleshooting</h2>
+      <div class="grid two">
+        <div>
+          <h3>App won’t open</h3>
+          <ol>
+            <li>Restart your iPhone.</li>
+            <li>Update iOS to the latest version.</li>
+            <li>Delete and reinstall PawPlan from the App Store.</li>
+          </ol>
+        </div>
+        <div>
+          <h3>Data missing after reinstall</h3>
+          <p>PawPlan stores data on-device. If you delete the app, iOS may remove the app’s local data. We recommend exporting a backup regularly (see <a href="#faq">FAQ</a>).</p>
+        </div>
+      </div>
+      <div class="callout small">Tip: If you use iCloud device backups, restoring your iPhone from a recent backup may also restore PawPlan’s data.</div>
+    </section>
+
+    <section id="faq" class="card">
+      <h2>FAQ</h2>
+      <dl class="faq">
+        <dt>What is PawPlan?</dt>
+        <dd>PawPlan helps you manage pet care: medications, weight, appointments, and medical records — all stored locally on your iPhone.</dd>
+
+        <dt>Where is my data stored?</dt>
+        <dd>All data is saved on your device. PawPlan does not require an account and does not send your entries to a server.</dd>
+
+        <dt>How do I export or back up my data?</dt>
+        <dd>Use the app’s <em>Export</em> feature (if available) to create a backup you can save to Files or share to yourself. Keep backups somewhere safe.</dd>
+
+        <dt>How do I manage or cancel a subscription?</dt>
+        <dd>Open <strong>Settings</strong> → your name → <strong>Subscriptions</strong>. You can also use Apple’s guide: <a href="https://support.apple.com/en-us/HT202039" target="_blank" rel="noopener">Manage subscriptions</a>.</dd>
+
+        <dt>I found a bug — what should I include in my email?</dt>
+        <dd>Describe what you expected to happen, what actually happened, your iPhone model, iOS version, and steps to reproduce. Screenshots are very helpful.</dd>
+      </dl>
+    </section>
+
+    <section id="privacy" class="card">
+      <h2>Privacy</h2>
+      <p>PawPlan is designed with privacy in mind. We don’t collect personal data on a server. Anonymous diagnostic data may be collected by Apple if you have opted in to share analytics on your device. If you email us for support, we will use your message solely to assist you and may retain it for troubleshooting and record‑keeping.</p>
+      <p>For privacy questions, contact: <a href="mailto:cjammerman@gmail.com">cjammerman@gmail.com</a> <!-- EDIT: change if needed --></p>
+    </section>
+
+    <footer class="wrap">
+      <div>© <span id="year"></span> PawPlan. All rights reserved.</div>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
